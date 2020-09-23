@@ -7,7 +7,7 @@ def join_nested_strings(src)
     element_index = 0
     while element_index < src[row_index].count do
       
-      if  src[row_index][element_index] ==  # is a string? (how do we check if something is a string or not?
+      if  src[row_index][element_index] == string  # is a string? (how do we check if something is a string or not?
         total += src[row_index][element_index]
       end
       
